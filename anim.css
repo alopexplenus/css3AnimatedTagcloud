@@ -1,0 +1,112 @@
+/*
+      ______          ___       __         _____      __     _____    
+     /      \        |__ |     //\\        ||---|    //\\    ||---| 
+  _  \------/  _       //     //  \\       ||__/    //  \\   ||__/    
+__\\__\||||/__//__    |__\   //____\\      ||--\   //    \\  ||--\  
+ --\\--\||/--//--     ___|| //------\\     ||__\\ //______\\ ||__\\ 
+   _\\_ \/ _//_      |___/ //        \\    |____/ \\------// |____/  
+        /\
+
+This is a css3 animated tagcloud script for livejournal, written for Lelelik, the best girl this Planet has seen 
+
+Copyright (C) 2012 by Nikita Semenov
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+For the GNU General Public License, see <http://www.gnu.org/licenses/>.
+*/
+
+/*	This is livejournal-specific code which removes the ads     */
+.sidebar-block{ display:none; }
+.sidebar-cal, .sidebar-tags, .sidebar-summary{ display:block; }
+
+.tags a:nth-child(1)  { color:#ffd !important; animation-delay:1s; animation-duration:9.59s; -moz-animation-delay:1s; -moz-animation-duration:9.59s; -webkit-animation-delay:1s; -webkit-animation-duration:9.59s;}
+.tags a:nth-child(3)  { color:#fed !important; animation-delay:4s; animation-duration:8.35s; -moz-animation-delay:4s; -moz-animation-duration:8.35s; -webkit-animation-delay:4s; -webkit-animation-duration:8.35s;}
+.tags a:nth-child(5)  { color:#fdf !important; animation-delay:3s; animation-duration:7.17s; -moz-animation-delay:3s; -moz-animation-duration:7.17s; -webkit-animation-delay:3s; -webkit-animation-duration:7.17s;}
+.tags a:nth-child(7)  { color:#ffe !important; animation-delay:2s; animation-duration:6.26s; -moz-animation-delay:2s; -moz-animation-duration:6.26s; -webkit-animation-delay:2s; -webkit-animation-duration:6.26s;}
+.tags a:nth-child(9)  { color:#fdf !important; animation-delay:5s; animation-duration:8.88s; -moz-animation-delay:5s; -moz-animation-duration:8.88s; -webkit-animation-delay:5s; -webkit-animation-duration:8.88s;}
+.tags a:nth-child(11) { color:#ffc !important; animation-delay:3s; animation-duration:7.47s; -moz-animation-delay:3s; -moz-animation-duration:7.47s; -webkit-animation-delay:3s; -webkit-animation-duration:7.47s;}
+.tags a:nth-child(13) { color:#fff !important; animation-delay:2s; animation-duration:9.79s; -moz-animation-delay:2s; -moz-animation-duration:9.79s; -webkit-animation-delay:2s; -webkit-animation-duration:9.79s;}
+.tags a:nth-child(15) { color:#fde !important; animation-delay:4s; animation-duration:5.25s; -moz-animation-delay:4s; -moz-animation-duration:5.25s; -webkit-animation-delay:4s; -webkit-animation-duration:5.25s;}
+.tags a:nth-child(17) { color:#fdf !important; animation-delay:6s; animation-duration:7.67s; -moz-animation-delay:6s; -moz-animation-duration:7.67s; -webkit-animation-delay:6s; -webkit-animation-duration:7.67s;}
+.tags a:nth-child(19) { color:#ffd !important; animation-delay:3s; animation-duration:6.26s; -moz-animation-delay:3s; -moz-animation-duration:6.26s; -webkit-animation-delay:3s; -webkit-animation-duration:6.26s;}
+.tags a:nth-child(21) { color:#ffc !important; animation-delay:4s; animation-duration:8.88s; -moz-animation-delay:4s; -moz-animation-duration:8.88s; -webkit-animation-delay:4s; -webkit-animation-duration:8.88s;}
+.tags a:nth-child(23) { color:#fcc !important; animation-delay:2s; animation-duration:7.35s; -moz-animation-delay:2s; -moz-animation-duration:7.35s; -webkit-animation-delay:2s; -webkit-animation-duration:7.35s;}
+.tags a:nth-child(25) { color:#fef !important; animation-delay:5s; animation-duration:9.79s; -moz-animation-delay:5s; -moz-animation-duration:9.79s; -webkit-animation-delay:5s; -webkit-animation-duration:9.79s;}
+.tags a:nth-child(27) { color:#ffd !important; animation-delay:1s; animation-duration:8.25s; -moz-animation-delay:1s; -moz-animation-duration:8.25s; -webkit-animation-delay:1s; -webkit-animation-duration:8.25s;}
+.tags a:nth-child(29) { color:#fdd !important; animation-delay:4s; animation-duration:7.17s; -moz-animation-delay:4s; -moz-animation-duration:7.17s; -webkit-animation-delay:4s; -webkit-animation-duration:7.17s;}
+.tags a:nth-child(31) { color:#fff !important; animation-delay:1s; animation-duration:6.26s; -moz-animation-delay:1s; -moz-animation-duration:6.26s; -webkit-animation-delay:1s; -webkit-animation-duration:6.26s;}
+.tags a:nth-child(33) { color:#fcd !important; animation-delay:3s; animation-duration:8.58s; -moz-animation-delay:3s; -moz-animation-duration:8.58s; -webkit-animation-delay:3s; -webkit-animation-duration:8.58s;}
+.tags a:nth-child(35) { color:#fff !important; animation-delay:2s; animation-duration:7.27s; -moz-animation-delay:2s; -moz-animation-duration:7.27s; -webkit-animation-delay:2s; -webkit-animation-duration:7.27s;}
+.tags a:nth-child(37) { color:#fef !important; animation-delay:1s; animation-duration:9.09s; -moz-animation-delay:1s; -moz-animation-duration:9.09s; -webkit-animation-delay:1s; -webkit-animation-duration:9.09s;}
+.tags a:nth-child(39) { color:#ffd !important; animation-delay:6s; animation-duration:9.45s; -moz-animation-delay:6s; -moz-animation-duration:9.45s; -webkit-animation-delay:6s; -webkit-animation-duration:9.45s;}
+
+.tags a{
+	-webkit-animation-name: coloring, tagmove;
+	-webkit-animation-timing-function: cubic-bezier(.50, 0, .50, 1); 
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: coloring, tagmove;
+	-moz-animation-timing-function: cubic-bezier(.50, 0, .50, 1); 
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: coloring, tagmove;
+	animation-timing-function: cubic-bezier(.50, 0, .50, 1); 
+	animation-iteration-count: infinite;
+	position:relative;
+	opacity:0;
+}
+.tags a:hover { color:#750B0B !important; text-decoration:underline !important; }
+
+.tags{
+	overflow:hidden;
+	height: 500px;
+	padding-top:100px;
+	font-size:1.5em !important;
+	line-height:3px;
+}
+.sidebar-tags dt{ display:none; }
+.tags .comma{ display:none; }
+
+
+
+@keyframes tagmove
+{
+	from { top:-80px; }
+	to { top:80px; }
+}
+@keyframes coloring {
+    from { opacity: 0; }
+    50% { opacity: 1; }   
+    to { opacity: 0; }   
+}
+
+@-moz-keyframes tagmove
+{
+	from { top:-80px; }
+	to { top:80px; }
+}
+@-moz-keyframes coloring {
+    from { opacity: 0; }
+    50% { opacity: 1; }   
+    to { opacity: 0; }   
+}
+
+@-webkit-keyframes tagmove
+{
+	from { top:-80px; }
+	to { top:80px; }
+}
+@-webkit-keyframes coloring {
+    from { opacity: 0; }
+    50% { opacity: 1; }   
+    to { opacity: 0; }   
+}
